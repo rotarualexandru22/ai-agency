@@ -23,7 +23,7 @@ This project is a visually polished, modern landing page for a fictional AI Agen
 
 1.  **Clone the repository:**
     ```bash
-    git clone [Your Repository URL Here]
+    git clone https://github.com/rotarualexandru22/ai-agency.git
     cd ai-agency-site
     ```
 2.  **Install dependencies:**
@@ -32,7 +32,7 @@ This project is a visually polished, modern landing page for a fictional AI Agen
     ```
 3.  **Set up Environment Variables:** Create a file named `.env` in the root of the project and add your API key:
     ```
-    VITE_WEB3FORMS_KEY="your-key-here"
+    VITE_WEB3FORMS_KEY="<YOUR_WEB3FORMS_API_KEY_HERE>"
     ```
 4.  **Run the development server:**
     ```bash
