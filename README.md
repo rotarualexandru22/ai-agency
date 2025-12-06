@@ -1,12 +1,40 @@
-# React + Vite
+# 🤖 AI Agency Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a visually polished, modern landing page for a fictional AI Agency. It focuses on demonstrating professional frontend development and UI/UX skills, including seamless **dark/light theme functionality** and secure external API integration.
 
-Currently, two official plugins are available:
+## Key Features
+* **Modern Frontend Stack:** Built with **React.js** and styled using **Tailwind CSS**.
+* **Advanced UI/UX:** Utilizes **Framer Motion** for subtle, high-quality animations, enhancing user experience.
+* **Secure Contact Form:** Features a functional contact form integrated with the **Web3Forms API**. The API key is securely managed via Vercel Environment Variables, demonstrating best practices for handling secrets.
+* **User Feedback:** Uses **React Hot Toast** for success and error notifications on form submission.
+* **Theming:** Includes a fully functional dark/light theme toggle.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technology Stack
+* **Framework:** React.js
+* **Styling:** Tailwind CSS
+* **Animation:** Framer Motion
+* **Notifications:** React Hot Toast
+* **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+## ⚙️ Local Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Prerequisites:** Node.js (LTS recommended)
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [Your Repository URL Here]
+    cd ai-agency-site
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install 
+    ```
+3.  **Set up Environment Variables:** Create a file named `.env` in the root of the project and add your API key:
+    ```
+    VITE_WEB3FORMS_KEY="your-key-here"
+    ```
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
