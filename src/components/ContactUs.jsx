@@ -11,7 +11,7 @@ const ContactUs = () => {
 
         const formData = new FormData(event.target);
 
-        formData.append("access_key", import.meta.env.VITE_WEB3FORM_KEY);
+        formData.append("access_key", import.meta.env.VITE_WEB3FORMS_KEY);
 
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
